@@ -1,2 +1,2 @@
 # benbburge.github.io
-~Cashing in ony my FREE URL~
+~Cashing in on my FREE URL~
