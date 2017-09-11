@@ -5,11 +5,19 @@ Opening tag, content, and a closing tag make up an element -->
   <head>                        <!-- this is for all the juicy bits, not for the standard user -->
     <meta charset="utf-8">      <!-- this gives us langauge stuff!! Covers all bases -->
     <title>My test Page</title> <!-- sets title for browser tab -->
+    <style>
+.imageBox {
+  padding: 10px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: candycorn2.gif;
+}
+</style>
   </head>
   <body>                        <!-- content to show user. -->
     <p>Hello World</p>
     <a href="200_s.gif">here's a cool dog</a>
-    <div style="background-image:candycorn2.gif;width:300px;height:300px;border:1px solid black;padding:10px;">
+    <div class="imageBox">
       <p>IT'S CANDY CORN SEASON</p>
     </div>
   </body>
