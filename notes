@@ -1,0 +1,28 @@
+<blockquote>
+<ul> </ul>
+<!-- HTML stands for HyperText Markup Language
+Opening tag, content, and a closing tag make up an element -->
+<!DOCTYPE html>
+<html>
+  <head>                        <!-- this is for all the juicy bits, not for the standard user -->
+    <meta charset="utf-8">      <!-- this gives us langauge stuff!! Covers all bases -->
+    <title>Ben's notes</title> <!-- sets title for browser tab -->
+    <style>
+    .imageBox {
+      padding: 10px;
+      height: 300px;
+      border: 1px solid black;
+      background-image: url("candycorn2.gif");
+    }
+    </style>
+  </head>
+  <body>                        <!-- content to show user. -->
+    <blockquote>Here's a quote<blockquote>
+    <ul>
+      <p>Here's a list<p>
+      <li>ordered and unordered lists are static</li>
+      <li>unordered just use dots (like this)</li>
+      <li>ordered use numbers</li>
+    <ul>
+  </body>
+</html>
