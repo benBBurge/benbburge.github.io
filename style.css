@@ -10,10 +10,11 @@ h3 {                          /*welcome to our first CSS declaration block*/
 }
 #lIZARD {
   color: pink;
-  font-size: 96px;            /*my father always used to say, "96 pixels in an inch"*/
+  font-size: 47px;            /*my father always used to say, "96 pixels in an inch"*/
+  font-weight: 1;
 }
 
-.dog {                       /*use a period for class*/
+.fish {                       /*use a period for class*/
   color: rgb(25,200,75);
   font-size: 4em;
 }
