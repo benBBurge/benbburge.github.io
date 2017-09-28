@@ -19,3 +19,16 @@ h3 {                          /*welcome to our first CSS declaration block*/
   font-size: 1em;
   font-family: "comic sans", calibri;   /*first fonts are tried first, the rest are fallbacks*/
 }
+
+a {
+  color: blue;
+}
+
+a:hover {                       /*calls element a in state "hover"*/
+  color: green;
+  font-size: 0;
+}
+
+a:visited {
+  color: purple;
+}
