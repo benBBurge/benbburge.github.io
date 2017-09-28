@@ -6,12 +6,12 @@ h3 {                          /*welcome to our first CSS declaration block*/
   color: purple;
 }
 #dog {
-  color: f7dd1f;
+  color: #f7dd1f;
 }
 #lIZARD {
   color: pink;
 }
 
 .dogs {                       /*use a period for class*/
-  color: dc6900;
+  color: rgb(25,200,75);
 }
