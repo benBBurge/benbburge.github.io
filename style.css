@@ -20,6 +20,10 @@ h3 {                          /*welcome to our first CSS declaration block*/
   font-family: "comic sans", calibri;   /*first fonts are tried first, the rest are fallbacks*/
 }
 
+.fish:hover {
+  color: #efefef;
+}
+
 a {
   color: blue;
   font-size: 36px;
@@ -27,7 +31,6 @@ a {
 
 a:hover {                       /*calls element a in state "hover"*/
   color: green;
-  font-size: 1px;
 }
 
 a:visited {
