@@ -16,5 +16,6 @@ h3 {                          /*welcome to our first CSS declaration block*/
 
 .fish {                       /*use a period for class*/
   color: rgb(25,200,75);
-  font-size: 4em;
+  font-size: 1em;
+  font-family: "comic sans", calibri;   /*first fonts are tried first, the rest are fallbacks*/
 }
