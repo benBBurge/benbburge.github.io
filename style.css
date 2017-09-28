@@ -1,3 +1,13 @@
 h3 {                          /*welcome to our first CSS declaration block*/
   color: red; font-size:24px;
   }
+
+#cat {
+  color: purple;
+}
+#dog {
+  color: 718243;
+}
+#lIZARD {
+  color: pink;
+}
