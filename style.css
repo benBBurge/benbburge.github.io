@@ -22,10 +22,12 @@ h3 {                          /*welcome to our first CSS declaration block*/
 
 a {
   color: blue;
+  font-size: 36px;
 }
 
 a:hover {                       /*calls element a in state "hover"*/
-  color: green; font-size: 1px;
+  color: green;
+  font-size: 1px;
 }
 
 a:visited {
