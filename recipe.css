@@ -29,9 +29,10 @@ hr {
 }
 /*
 You could do this much easier like:
-_name {
+#name {           make an id with the values you want
   color: #8b048;
 }
-<div id="name">
+<div id="name">   pop a div tag encompassing your whole html doc using that id
+  [html]
 </div>
 */
