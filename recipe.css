@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
 h2 {
   color: #8b048a;
+  font: nosifer
 }
 h4 {
   color: #8b048a;
+  font: nosifer
 }
 p {
   color: #8b048a;
+  font: nosifer
 }
 ul {
   color: #8b048a;
+  font: nosifer
 }
 ol {
   color: #8b048a;
+  font: nosifer
 }
+hr {
+  color: #8b048a;
+}
+
+/*
+You could do this much easier like:
+_name {
+  color: #8b048;
+}
+<div id="name">
+</div>
+*/
