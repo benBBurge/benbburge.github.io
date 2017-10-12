@@ -1,1 +1,8 @@
+Viewports change all that good stuff. Edited through our meta tag.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> is the basics!
+We can thank W3C for all their wonderful work with HTML.
 
+CSS does the heavily lifting with "Media Queries"
+@media includes a block of CSS props that only display if a condition is true. They find out how big a screen is, and apply the propper CSS. (all done in OG CSS file)
+EX. @media(min-width:900px){p{color:red;}} | if the min with is ~tablet, the <p> color will be red.
+^ this can be used to resize text/images depending on screen width
