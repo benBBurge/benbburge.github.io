@@ -1,0 +1,29 @@
+div.nav-bar {			/*div b4 class tells CSS we want to apply to whole div*/
+	float: left;
+	width: 100px;
+	height: 103%;
+	border-right: 2px dashed green;
+	border-bottom: 2px dashed green;
+}
+
+#main-container {
+	padding-left: 300px;
+	padding-bottom: 25px;
+}
+
+a {						/*the a links are still messing up the CSS. Let's modify them*/
+	display: block;
+	color: green;
+}
+
+.footer {
+	/*padding-left:300px;*/
+	margin-left: 300px;
+	clear: both;
+	border: 1px solid #f45a1d;
+}
+
+/*
+Q: Why did we not need to tell our CSS the main container ID is a div?
+A: Just to be specific! We're using lots of attributes for the nav-bar class, so we need to make sure it knows it's a div
+*/
