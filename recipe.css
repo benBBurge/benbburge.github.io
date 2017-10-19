@@ -27,6 +27,27 @@ hr {
   color: #8b048a;
   font-family: nosifer;
 }
+
+@media screen and (min-height: 768px) and (max-width: 1024px) {
+  #main-container {
+    font-size: 18px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-height: 320px) and (max-width: 420px) {
+  #main-container {
+    font-size: 15px;
+  }	/*ends main container*/
+  img {
+    width: 100%;
+    height: 100%;
+  }	/*ends img*/
+}	/*ends media query*/
+
 /*
 You could do this much easier like:
 #name {           make an id with the values you want
