@@ -5,3 +5,5 @@ h3 {
   color: red;
   font-size:24px;
 }
+
+@media(min-width:900px){p{color:green;}}
