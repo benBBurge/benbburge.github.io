@@ -1,1 +1,121 @@
+@keyframes headerColor {			/*css animation for header's background color*/
+    0%		{background-color: #0099FF;}
+    20%		{background-color: #710CE8;}
+    40%		{background-color: #FF0000;}
+    60%		{background-color: #E88B0C;}
+    80%		{background-color: #FFFA0D;}
+    100%	{background-color: #0099FF;}
+}
 
+#pageHeader {						/*tippy top element, holds title*/
+    color: #FFFA0D;
+    background-color: #0099FF;
+    animation-name: headerColor;	/*triggers css animation for background color*/
+    animation-duration: 20s;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.navHeader {						/*nav bar is*/
+    background-color: #dddddd;		/*blue*/
+    border-bottom: 2px solid #0d0d0d;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.navLink {							/*keeps links from crowding*/
+    float: left;
+    width: 20%;						/*100% over five links = 20% each*/
+}
+
+.headLine {    
+    font-family: 'Barlow', sans-serif;
+}
+
+#head {
+	padding-top:120px;				/*lil' space between headline and navbar*/
+}
+
+#body {
+	padding-right: 5px;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+a:link {							/*pretty links*/
+  color: #0099ff;
+}
+
+a:hover {                       	/*calls element a in state "hover"*/
+  color: #E88B0C;
+}
+
+a:visited {
+  color: #710CE8;
+}
+
+.img {
+	height:375px;					/*all these images are squares ~this size*/
+	width:375px;
+}
+
+#smImg {
+	 float:left;
+	 height: 250px;
+	 width: 250px;
+	 padding: 25px;
+}
+
+.quoteCredit {						/*quotes use <h3> with no styling to stand out*/
+	text-align: right;				/*quoteCredits will be on right side of the page*/
+	width: 75%;						/*but only 75% right*/
+}
+
+#aboutAuthor {
+	background-color: #dddddd;
+	border-top: 2px solid #0d0d0d;
+}
+
+#footDiv {
+	background-color: #0d0d0d;
+	border-top: 2px solid #0d0d0d;
+}
+
+a:link#foot,									/*white link in footer*/
+a:hover#foot,
+a:visited#foot {
+  color: #ffffff;
+}
+
+@media screen and (min-height: 320px) and (max-width: 420px) {
+	h3 {
+		font-size:16px;
+	}
+	.navLink {						/*each link gets its own row now*/
+		width: 100%;
+	}
+	#head {							/*changes heading to match adjusted links*/
+		padding-top: 190px;
+	}
+	#body {							/*increase font size*/
+		padding: 5px;
+    	font-size: 18px;
+  	}
+  	.img {
+    	width: 50%;
+    	height: 50%;
+  	}
+  	#smImg {
+  		float: left;
+	 	height: 75%;
+	 	width: 75%;
+}
+  	.quoteCredit {						/*quotes use <h3> with no styling to stand out*/
+	text-align: right;					/*quoteCredits are pushed more right*/
+	width: 95%;
+}
+}	/*ends media query*/
