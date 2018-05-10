@@ -1,0 +1,215 @@
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.TBE {
+	display: inline-block;
+	width: 2.1vw;
+	height: 2.1vw;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	border-radius: 50%;
+    behavior: url(PIE.htc);	 /*for IE*/
+	background-color: black; /*overwritten later by D3 color*/
+}
+
+div.DL {
+	display: inline-block;
+	width: 2.1vw;			
+	height: 2.1vw;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	background-color: black; /*overwritten later by D3 color*/
+}
+div.DL:hover {
+	-webkit-animation: wiggle .5s 0.1s;
+    animation: wiggle .5s 0.1s;
+}
+
+div.TBEType {
+	display: inline-block;
+	width: 5px;				/*overwritten later by D3 Width*/
+	height: 100%;
+	color: #bebebe;
+	background-color: black; /*overwritten later by D3 Color*/
+}
+
+div.DLType {
+	display: inline-block;
+	width: 5px;				/*overwritten later by D3 Width*/			
+	height: 100%;
+	color: #bebebe;
+	background-color: black; /*overwritten later by D3 Color*/
+}
+
+#circleContainer {
+	width: 90%;
+	position: relative;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#typeContainer {
+	height: 25px;
+	width: 100%;
+	padding: 2px;
+}
+
+#districtContainer {
+	width: 80%;
+}
+
+div.bar {
+	width: 5px;				/*overwritten later by D3 Width*/
+	height: 15px;
+	background-color: #66aa00;
+	color: #bebebe;
+	font-size: 13px;
+	margin-left: 25%;
+}
+
+.textColumn {
+	width: 49%;
+	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 125%;
+	padding-left: 13%;
+}
+
+#key {
+	width: 10%;
+	height: 100%;
+	float: right;
+	line-height: 85%;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-right: 5%;
+}
+
+.chartTitle {
+	line-height: 85%;
+	font-size: 20px;
+	font-family: 'Gothic A1', sans-serif;
+	color: #779bba;
+	margin-left: 25%;
+}
+
+a {
+    color: #abb8d9;                     /*blue*/
+}
+
+a:hover {
+    color: #779bba;                     /*purple*/
+}
+
+a:visited {
+    color: #bebebe;                     /*pink*/
+}
+
+#header {
+	width: 100%;
+	margin: 20px;
+	font-color: #22aa99;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#headline {
+	font-size: 40px;
+	color: #779bba;
+	line-height: 90%;
+	font-family: 'Gothic A1', sans-serif;
+	padding-left: 3%;
+}
+
+#byline {
+	font-size: 32px;
+	color: #abb8d9;
+	line-height: 90%;
+	font-family: 'Gothic A1', sans-serif;
+	padding-left: 8%;
+}
+
+#author {
+	font-size: 18px;
+	color: #bebebe;
+	font-family: 'Gothic A1', sans-serif;
+	padding-left: 15%;
+}
+
+#authorPic {
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 25%;
+	margin-left: 10%;
+}
+
+#authorPic:hover {
+	-webkit-animation: loop 5s 0s infinite;
+    animation: loop 5s 0s infinite;
+}
+
+#footer {
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(white, #22aa99);
+	padding-top: 20px;
+	text-align: center;
+}
+
+@keyframes loop {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    } /* begining state */
+    33% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    } 
+    66% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    } /* end state */
+}
+
+@keyframes wiggle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    } /*begining state*/
+    30% {
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    60% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    } /*end state*/
+}

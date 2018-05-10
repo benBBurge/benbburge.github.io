@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Pal News News - ESL Programs...</title>
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:500|Montserrat:500" rel="stylesheet"> 
+</head>
+<body>
+	<div id="header">
+		<p>My Pal News News</p>
+	</div>
+	<div>
+		<h2 id="headline">With Expansion on the Horrizon, Let's Recap this Year's ESL Offerings</h2>
+		<h4 id="byline">The data speaks for itself: bilingual classrooms are on the rise</h4>
+		<img id="authorPic" src="photos/ben.gif" alt="Ben">
+		<h5 id="author">Ben B. Burge</h5>
+	</div>
+	<div class="textColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Manhattan — Still a beacon for immigration, New York City public schools offer language opportunities that most municipalities cannot match. Support for students whose native tongue isn’t English has been a major priority for the Division of English Language Learners and Students Support (DELLSS). As part of their mission to provide a <a href="http://schools.nyc.gov/Academics/ELL/default.htm">“rich educational experience”</a> to all ELLs, their work with the Department of Education has paved the way for hundreds of new programs.
+		</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		As schools scale and teaching methods evolve ESL services too must morph to best fit the need of English Language Learners and English speaking students alike. Recent data on the 2017-2018 school year suggests 545 unique programs which support 14 languages other than English. This information sheds light on over 200 programs created within the last four years. Of these programs there are two types that have proved most successful and now form the basis for all current and planned programs: TBE and DL.</p>
+		<h3>Transitional Bilingual Education (TBE)</h3>
+		<p>Instruction is offered in a native language as well as English. Used in tandem with ESL, this program follows students until they test proficient in the New York State English as a Second Language Achievement Test (NYSESLAT). Schools must offer this service for an additional two years to students who tests proficient.</p>
+		<h3>Dual Language (DL)</h3>
+		<p>ELL and English speaking students are paired in the classroom where lessons are taught in two languages. The focus here is in bilingual classrooms. Here, students are not expected to exit DL instruction after English proficiency.</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Below each shape represents a 2017-2018 ESL program. Each langauge is shown by a different color. TBE programs are circles and DL are squares. Hover over a program to see the ID of School it belongs to.</p>
+    </div>
+    
+
+    <div title="Scroll over a program for school ID" id="circleContainer">
+    	<p class="chartTitle">2017-2018 ESL Programs Arranged by District</p>
+    	<div id="key">
+	    	<p><u>KEY</u></p>
+	    	<p style="color: #3366cc">Spanish (437)</p>
+	    	<p style="color: #dc3912">Chinese (70)</p>
+	    	<p style="color: #ff9900">French (8)</p>
+	    	<p style="color: #109618">Yiddish (7)</p>
+	    	<p style="color: #990099">Bengali (5)</p>
+	    	<p style="color: #0099c6">Russian (4)</p>
+	    	<p style="color: #dd4477">Arabic (4)</p>
+	    	<p style="color: #66aa00">Haitian Creole (4)</p>
+	    	<p style="color: #b82e2e">Polish (1)</p>
+	    	<p style="color: #316395">Italian (1)</p>
+	    	<p style="color: #994499">Hebrew (1)</p>
+	    	<p style="color: #22aa99">Korean (1)</p>
+	    	<p style="color: #aaaa11">Japanese (1)</p>
+	    	<p style="color: #6633cc">Urdu (1)</p>
+	    	<div class="TBE">
+	    		<p> - TBE </p>
+	    	</div>
+	    	<div class="DL">
+	    		<p> - DL</p>
+	    	</div>
+	    </div>
+    </div>
+    
+    <div class="textColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Depending on the needs of a school, the NYC DoE implements one of these two programs, each pertaining to a single non-english language. Curious about the split? here’s another look at that ratio.</p>
+    </div>
+    <div id="typeContainer">
+    </div>
+    <div class="textColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Depending on the needs of a school, the NYC DoE implements one of these two programs, each pertaining to a single non-english language. The chart above shows TBE programs as circles and DL as squares. Curious about the split? here’s another look at that ratio.</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Dual Language  programs were once a minority. Prior to the DoE’s half-decade push for ESL services, DL programs made up less than 18% of those taught in classrooms. The gap between TBE and DL will further close next semester according to last Thursday’s announcement from DoE Chancellor Richard A. Carranza. <a href="http://schools.nyc.gov/Offices/mediarelations/NewsandSpeeches/2017-2018/Chancellor+Richard+A+Carranza+Announces+Bilingual+Programs+Expansion+48+New+Programs+Opening+This+Fa.htm">48 new ESL programs will be initiated next Fall,</a> 32 of which will be DL. This expansion will also create language options in areas lacking present programs.</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below the number of programs per district is isolated. I implore you to consider how this distribution has come to form.</p>
+    </div>
+    
+    <div title="Scroll over a bar for program count" id="districtContainer"><p class="chartTitle">2017-2018 ESL Programs Per District</p></div>
+    
+    <div class="textColumn">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    The DoE has made great strides towards an accessible and ubiquitous ESL experience. The growth of Dual Language programs promotes the benefits of a bilingual classroom. As programs expand to new areas of the city an even larger body of students will find their classrooms taught in the languages conducive to their learning.</p>
+    </div>
+
+    <div id="footer">
+    	<h3>Signing off,</h3>
+    						<a href="https://www.instagram.com/ecco3697/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"/></svg></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    						<a href="http://011v3.tumblr.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.512 17.489l-.096-.068h-3.274c-.153 0-.16-.467-.163-.622v-5.714c0-.056.045-.101.101-.101h3.82c.056 0 .101-.045.101-.101v-5.766c0-.055-.045-.1-.101-.1h-3.803c-.055 0-.1-.045-.1-.101v-4.816c0-.055-.045-.1-.101-.1h-7.15c-.489 0-1.053.362-1.135 1.034-.341 2.778-1.882 4.125-4.276 4.925l-.267.089-.068.096v4.74c0 .056.045.101.1.101h2.9v6.156c0 4.66 3.04 6.859 9.008 6.859 2.401 0 5.048-.855 5.835-1.891l.157-.208-1.488-4.412zm.339 4.258c-.75.721-2.554 1.256-4.028 1.281l-.165.001c-4.849 0-5.682-3.701-5.682-5.889v-7.039c0-.056-.045-.101-.1-.101h-2.782c-.056 0-.101-.045-.101-.101l-.024-3.06.064-.092c2.506-.976 3.905-2.595 4.273-5.593.021-.167.158-.171.159-.171h3.447c.055 0 .101.045.101.101v4.816c0 .056.045.101.1.101h3.803c.056 0 .101.045.101.1v3.801c0 .056-.045.101-.101.101h-3.819c-.056 0-.097.045-.097.101v6.705c.023 1.438.715 2.167 2.065 2.167.544 0 1.116-.126 1.685-.344.053-.021.111.007.13.061l.995 2.95-.024.104z" fill-rule="evenodd" clip-rule="evenodd"/></svg></a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    						<a href="https://twitter.com/BenBBurge" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+    </div>
+    <script type='text/javascript' src="esl.js"></script>
+</body>
+</html> 
