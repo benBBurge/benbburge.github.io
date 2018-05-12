@@ -1,2196 +1,3318 @@
 var circlesData = [
-	{ 
-	"ID" : "01M020",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "01M020",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "01M184",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "01M184",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "01M188",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "01M378",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "01M515",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "01M515",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "02M001",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M002",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M042",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M042",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M124",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M130",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M131",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M131",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M427",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "02M542",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "02M542",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "02M545",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "02M545",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "03M075",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M075",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M084",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "03M084",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M087",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M145",
-	"class" : "DL",
-	"backgroundColor" : "#109618"},
-	{ 
-	"ID" : "03M145",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M163",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M165",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M180",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M247",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M247",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "03M256",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "04M057",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M072",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M072",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M096",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M112",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M112",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M155",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M155",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M155",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M155",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M182",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M182",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M182",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M206",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M372",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M372",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "04M435",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "05M129",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "05M161",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "05M200",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "05M200",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M004",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M004",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M004",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M005",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M005",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M005",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M008",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M018",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M018",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M028",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M048",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M052",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M098",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M098",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M103",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M103",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M115",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M115",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M128",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M128",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M128",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M128",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M132",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M143",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M143",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M152",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M153",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M178",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M189",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M189",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M189",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M192",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M210",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M210",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M218",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M319",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M319",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M322",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M322",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M324",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M324",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M328",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M328",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M348",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M348",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M349",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M457",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M462",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M462",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M463",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M467",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M467",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M468",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M468",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M513",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M513",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M528",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M540",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M552",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "06M552",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X001",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X005",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X018",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X018",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X025",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X025",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X029",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X030",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X049",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X049",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X151",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X161",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X179",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X223",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X224",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X298",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X298",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X298",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X369",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X584",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X584",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "07X600",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "08X048",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "08X062",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "08X333",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "08X432",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "08X448",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X011",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X011",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X022",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X053",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X053",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X055",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X058",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X070",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X070",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X073",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X109",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X114",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X117",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X117",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X126",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X163",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X170",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X199",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X218",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X218",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X219",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X232",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X232",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X274",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X294",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X313",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X325",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X339",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X365",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X412",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X443",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X449",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "09X454",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X008",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X009",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X032",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X033",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X046",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X046",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X046",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X054",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X077",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X080",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X085",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X085",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X086",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X086",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X091",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X094",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X094",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X095",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X118",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X118",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X205",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X207",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X207",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X226",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X244",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X244",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X246",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X254",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X279",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X291",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X331",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X340",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X342",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X342",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X351",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X353",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X363",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X368",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X374",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X390",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X390",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X391",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "10X447",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "11X103",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "11X103",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "11X105",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "11X127",
-	"class" : "TBE",
-	"backgroundColor" : "#990099"},
-	{ 
-	"ID" : "11X127",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X047",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X066",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X092",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X098",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X150",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X150",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X195",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X196",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X211",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X384",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X458",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X463",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X536",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "12X550",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "13K003",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "13K009",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "13K020",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "13K046",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "13K054",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "13K113",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "13K133",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "13K133",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K018",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K034",
-	"class" : "DL",
-	"backgroundColor" : "#0099c6"},
-	{ 
-	"ID" : "14K050",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K059",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K071",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "14K084",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K110",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "14K147",
-	"class" : "DL",
-	"backgroundColor" : "#66aa00 "},
-	{ 
-	"ID" : "14K157",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K196",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K250",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "14K257",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K257",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K319",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K380",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K380",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "14K414",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K454",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K474",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K477",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "14K478",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K001",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K001",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K015",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K024",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K024",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K058",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "15K088",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K094",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K094",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K094",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K124",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K124",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K131",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K131",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K136",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K169",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K169",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K169",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "15K169",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K169",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K230",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K497",
-	"class" : "DL",
-	"backgroundColor" : "#ff9900"},
-	{ 
-	"ID" : "15K516",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "15K592",
-	"class" : "TBE",
-	"backgroundColor" : "#b82e2e"},
-	{ 
-	"ID" : "15K821",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "16K627",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "17K189",
-	"class" : "DL",
-	"backgroundColor" : "#316395"},
-	{ 
-	"ID" : "17K189",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "17K249",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "17K375",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "17K600",
-	"class" : "TBE",
-	"backgroundColor" : "#316395"},
-	{ 
-	"ID" : "17K705",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "18K068",
-	"class" : "DL",
-	"backgroundColor" : "#316395"},
-	{ 
-	"ID" : "18K276",
-	"class" : "DL",
-	"backgroundColor" : "#316395"},
-	{ 
-	"ID" : "19K007",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K089",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K089",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K089",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K108",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K159",
-	"class" : "TBE",
-	"backgroundColor" : "#990099"},
-	{ 
-	"ID" : "19K159",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K171",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K171",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K214",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K218",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K290",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K345",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K507",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K583",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K583",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "19K662",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K030",
-	"class" : "DL",
-	"backgroundColor" : "#b82e2e"},
-	{ 
-	"ID" : "20K030",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K069",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K105",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K112",
-	"class" : "DL",
-	"backgroundColor" : "#994499"},
-	{ 
-	"ID" : "20K127",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K160",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K160",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K164",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K170",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K176",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K180",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K186",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K192",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K200",
-	"class" : "DL",
-	"backgroundColor" : "#109618"},
-	{ 
-	"ID" : "20K204",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K205",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K205",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "20K220",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K220",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K259",
-	"class" : "TBE",
-	"backgroundColor" : "#b82e2e"},
-	{ 
-	"ID" : "20K310",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K445",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K490",
-	"class" : "TBE",
-	"backgroundColor" : "#b82e2e"},
-	{ 
-	"ID" : "20K490",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K490",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K503",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K505",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K505",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "20K506",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "20K506",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K090",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K097",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "21K101",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "21K225",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K228",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "21K228",
-	"class" : "DL",
-	"backgroundColor" : "#22aa99"},
-	{ 
-	"ID" : "21K228",
-	"class" : "DL",
-	"backgroundColor" : "#109618"},
-	{ 
-	"ID" : "21K228",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K238",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K281",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "21K525",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "21K525",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "21K540",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "22K139",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "22K206",
-	"class" : "DL",
-	"backgroundColor" : "#109618"},
-	{ 
-	"ID" : "22K217",
-	"class" : "TBE",
-	"backgroundColor" : "#aaaa11"},
-	{ 
-	"ID" : "24Q005",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q007",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q012",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q013",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q013",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q014",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q014",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q014",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q016",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q016",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q019",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q019",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q019",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q028",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q061",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q061",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q073",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q081",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q089",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q093",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q102",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "24Q110",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q143",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q143",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q143",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q211",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q211",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q311",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q330",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q455",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "24Q485",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "25Q020",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q020",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q021",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q022",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q024",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q032",
-	"class" : "DL",
-	"backgroundColor" : "#6633cc"},
-	{ 
-	"ID" : "25Q107",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q107",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "25Q120",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q163",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q163",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q163",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q185",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q189",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q237",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q241",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q242",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q244",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q425",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "25Q425",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "25Q460",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "26Q162",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "26Q173",
-	"class" : "DL",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "26Q430",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "27Q063",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q064",
-	"class" : "TBE",
-	"backgroundColor" : "#990099"},
-	{ 
-	"ID" : "27Q137",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q197",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q253",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q302",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q475",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "27Q480",
-	"class" : "TBE",
-	"backgroundColor" : "#990099"},
-	{ 
-	"ID" : "27Q480",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q082",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q086",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q182",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q182",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q190",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "28Q505",
-	"class" : "TBE",
-	"backgroundColor" : "#990099"},
-	{ 
-	"ID" : "28Q505",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "29Q095",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "29Q095",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "29Q238",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q011",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q017",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q076",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q076",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q092",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q112",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q127",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q145",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q145",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q148",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q148",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q149",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q150",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q152",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q166",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q204",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q204",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q212",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q222",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q228",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q228",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q228",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q228",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q235",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q280",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q329",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q445",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q450",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "30Q555",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "30Q555",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R016",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R019",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R020",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R020",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R022",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R022",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R041",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R044",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R051",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R057",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R057",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R061",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R445",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "31R450",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K086",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K106",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K106",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K116",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K123",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K145",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K151",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K151",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K162",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K274",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K291",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K349",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K376",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K377",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K403",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "32K562",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75K231",
-	"class" : "TBE",
-	"backgroundColor" : "#dc3912"},
-	{ 
-	"ID" : "75K370",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "75K370",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "75K373",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75K396",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "75K721",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75K721",
-	"class" : "TBE",
-	"backgroundColor" : "#dd4477"},
-	{ 
-	"ID" : "75K811",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75M079",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75M079",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75M079",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75M751",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75Q255",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75Q721",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75Q721",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75Q721",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75Q811",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X010",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X010",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X017",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X168",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X168",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X176",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X186",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X186",
-	"class" : "DL",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X186",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X469",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X469",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X721",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X721",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X754",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X811",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X811",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "75X811",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "79M973",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"},
-	{ 
-	"ID" : "79Q950",
-	"class" : "TBE",
-	"backgroundColor" : "#3366cc"}
+	{
+	"ID" : "01M020", 
+	"District" : "1", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M020", 
+	"District" : "1", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M184", 
+	"District" : "1", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M184", 
+	"District" : "1", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M188", 
+	"District" : "1", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M378", 
+	"District" : "1", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "01M515", 
+	"District" : "1", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "01M515", 
+	"District" : "1", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M001", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "02M002", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M042", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M042", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M124", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M130", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M131", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "02M131", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M427", 
+	"District" : "2", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M542", 
+	"District" : "2", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "02M542", 
+	"District" : "2", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "02M545", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "02M545", 
+	"District" : "2", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "03M075", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M075", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M084", 
+	"District" : "3", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M084", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M087", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M145", 
+	"District" : "3", 
+	"BackgroundColor" : "#0099c6", 
+	"Language" : "Russian", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M145", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M163", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M165", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M180", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M247", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M247", 
+	"District" : "3", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "03M256", 
+	"District" : "3", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M057", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M072", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M072", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "04M096", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M112", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M112", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M155", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M155", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M155", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "04M155", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "04M182", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M182", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M182", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "04M206", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M372", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M372", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "04M435", 
+	"District" : "4", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "05M129", 
+	"District" : "5", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "05M161", 
+	"District" : "5", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "05M200", 
+	"District" : "5", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "05M200", 
+	"District" : "5", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M004", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M004", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M004", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M005", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M005", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M005", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M008", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M018", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M018", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M028", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M028", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M028", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M028", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M048", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M052", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M098", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M098", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M103", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M103", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M115", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M115", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M128", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M128", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M128", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M128", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M132", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M143", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M143", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M152", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M153", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M178", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M189", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M189", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M189", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M192", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M210", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M210", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M218", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M311", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M311", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M311", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M319", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M319", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M322", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M322", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M324", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M324", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M328", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M328", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M348", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M348", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M349", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M457", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M462", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M462", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M463", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M467", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M467", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M468", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M468", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M513", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M513", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M528", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "06M540", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M552", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "06M552", 
+	"District" : "6", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X001", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X005", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X018", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X018", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X025", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X025", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X029", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X030", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X049", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X049", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X151", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X161", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X179", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X223", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X224", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X298", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X298", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X298", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X369", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X584", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "07X584", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "07X600", 
+	"District" : "7", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "08X048", 
+	"District" : "8", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "08X062", 
+	"District" : "8", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "08X333", 
+	"District" : "8", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "08X432", 
+	"District" : "8", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "08X448", 
+	"District" : "8", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X011", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X011", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X022", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X028", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X028", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X053", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X053", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X055", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X058", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X070", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X070", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X073", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X109", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X114", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X117", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X117", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X126", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X163", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X170", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X199", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X218", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X218", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X219", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X232", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X232", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X274", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X294", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X311", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X311", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X313", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X325", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X339", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X365", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X412", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "09X443", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X449", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "09X454", 
+	"District" : "9", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X008", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X009", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X032", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X033", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X046", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "10X046", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X046", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X054", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "10X077", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "10X080", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X085", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X085", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X086", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X086", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X091", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X094", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X094", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X095", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X118", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X118", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X205", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X207", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "10X207", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X226", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X244", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X244", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X246", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X254", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X279", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X291", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X331", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X340", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X342", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X342", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X351", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X353", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X363", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X368", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X374", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X390", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "10X390", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X391", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "10X447", 
+	"District" : "10", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "11X103", 
+	"District" : "11", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "11X103", 
+	"District" : "11", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "11X105", 
+	"District" : "11", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "11X127", 
+	"District" : "11", 
+	"BackgroundColor" : "#990099", 
+	"Language" : "Bengali", 
+	"Program" : "TBE"},
+	{
+	"ID" : "11X127", 
+	"District" : "11", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X047", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X066", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X092", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "12X098", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X150", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X150", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X195", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X196", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X211", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X384", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X458", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "12X463", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "12X536", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "12X550", 
+	"District" : "12", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K003", 
+	"District" : "13", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K009", 
+	"District" : "13", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K020", 
+	"District" : "13", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K046", 
+	"District" : "13", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K054", 
+	"District" : "13", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K113", 
+	"District" : "13", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K133", 
+	"District" : "13", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "13K133", 
+	"District" : "13", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K018", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K034", 
+	"District" : "14", 
+	"BackgroundColor" : "#b82e2e", 
+	"Language" : "Polish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K050", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K059", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K071", 
+	"District" : "14", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K084", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K110", 
+	"District" : "14", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K147", 
+	"District" : "14", 
+	"BackgroundColor" : "#aaaa11", 
+	"Language" : "Japanese ", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K157", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K196", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K250", 
+	"District" : "14", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K257", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K257", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K319", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K380", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K380", 
+	"District" : "14", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K414", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "14K454", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K474", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K477", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "14K478", 
+	"District" : "14", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K001", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K001", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K015", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K024", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K024", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K058", 
+	"District" : "15", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K088", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K094", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K094", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K094", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K124", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K124", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K131", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K131", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K136", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K169", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K169", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K169", 
+	"District" : "15", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K169", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K169", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K230", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K497", 
+	"District" : "15", 
+	"BackgroundColor" : "#ff9900", 
+	"Language" : "French", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K516", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "15K592", 
+	"District" : "15", 
+	"BackgroundColor" : "#dd4477", 
+	"Language" : "Arabic", 
+	"Program" : "TBE"},
+	{
+	"ID" : "15K821", 
+	"District" : "15", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "16K627", 
+	"District" : "16 ", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "17K189", 
+	"District" : "17", 
+	"BackgroundColor" : "#66aa00", 
+	"Language" : "Haitian Creole", 
+	"Program" : "DL"},
+	{
+	"ID" : "17K189", 
+	"District" : "17", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "17K249", 
+	"District" : "17", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "17K375", 
+	"District" : "17", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "17K600", 
+	"District" : "17", 
+	"BackgroundColor" : "#66aa00", 
+	"Language" : "Haitian Creole", 
+	"Program" : "TBE"},
+	{
+	"ID" : "17K705", 
+	"District" : "17", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "18K068", 
+	"District" : "18 ", 
+	"BackgroundColor" : "#66aa00", 
+	"Language" : "Haitian Creole", 
+	"Program" : "DL"},
+	{
+	"ID" : "18K276", 
+	"District" : "18 ", 
+	"BackgroundColor" : "#66aa00", 
+	"Language" : "Haitian Creole", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K007", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K089", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K089", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K089", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K108", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K159", 
+	"District" : "19", 
+	"BackgroundColor" : "#990099", 
+	"Language" : "Bengali", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K159", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K171", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K171", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K214", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K218", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K290", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K345", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K507", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K583", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "19K583", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "19K662", 
+	"District" : "19", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K030", 
+	"District" : "20", 
+	"BackgroundColor" : "#dd4477", 
+	"Language" : "Arabic", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K030", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K069", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K105", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K112", 
+	"District" : "20", 
+	"BackgroundColor" : "#316395", 
+	"Language" : "Italian", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K127", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K160", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K160", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K164", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K170", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K176", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K180", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K186", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K192", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K200", 
+	"District" : "20", 
+	"BackgroundColor" : "#0099c6", 
+	"Language" : "Russian", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K204", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K205", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K205", 
+	"District" : "20", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K220", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K220", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K259", 
+	"District" : "20", 
+	"BackgroundColor" : "#dd4477", 
+	"Language" : "Arabic", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K310", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K445", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K490", 
+	"District" : "20", 
+	"BackgroundColor" : "#dd4477", 
+	"Language" : "Arabic", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K490", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K490", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K503", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "20K505", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K505", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K506", 
+	"District" : "20", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "20K506", 
+	"District" : "20", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K090", 
+	"District" : "21", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K097", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "21K101", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K225", 
+	"District" : "21", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K228", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K228", 
+	"District" : "21", 
+	"BackgroundColor" : "#994499", 
+	"Language" : "Hebrew", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K228", 
+	"District" : "21", 
+	"BackgroundColor" : "#0099c6", 
+	"Language" : "Russian", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K228", 
+	"District" : "21", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K238", 
+	"District" : "21", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K281", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "21K525", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "21K525", 
+	"District" : "21", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "21K540", 
+	"District" : "21", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "22K139", 
+	"District" : "22", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "22K206", 
+	"District" : "22", 
+	"BackgroundColor" : "#0099c6", 
+	"Language" : "Russian", 
+	"Program" : "DL"},
+	{
+	"ID" : "22K217", 
+	"District" : "22", 
+	"BackgroundColor" : "#6633cc", 
+	"Language" : "Urdu", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q005", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q007", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q012", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q013", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q013", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q014", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q014", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q014", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q016", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q016", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q019", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q019", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q019", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q028", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q028", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q061", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q061", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q073", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q081", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q089", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q093", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q102", 
+	"District" : "24", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q110", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q143", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q143", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q143", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q211", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q211", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q311", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q330", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "24Q455", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "24Q485", 
+	"District" : "24", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q020", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q020", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q021", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q022", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q024", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q032", 
+	"District" : "25", 
+	"BackgroundColor" : "#22aa99", 
+	"Language" : "Korean", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q107", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q107", 
+	"District" : "25", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q120", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q163", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q163", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q163", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q185", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q189", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "25Q237", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q241", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q242", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q244", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q425", 
+	"District" : "25", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q425", 
+	"District" : "25", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "25Q460", 
+	"District" : "25", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "26Q162", 
+	"District" : "26", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "26Q173", 
+	"District" : "26", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "DL"},
+	{
+	"ID" : "26Q430", 
+	"District" : "26", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q063", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q064", 
+	"District" : "27", 
+	"BackgroundColor" : "#990099", 
+	"Language" : "Bengali", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q137", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "27Q197", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "27Q253", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "27Q302", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q475", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q480", 
+	"District" : "27", 
+	"BackgroundColor" : "#990099", 
+	"Language" : "Bengali", 
+	"Program" : "TBE"},
+	{
+	"ID" : "27Q480", 
+	"District" : "27", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q082", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q086", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "28Q182", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q182", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q190", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q505", 
+	"District" : "28", 
+	"BackgroundColor" : "#990099", 
+	"Language" : "Bengali", 
+	"Program" : "TBE"},
+	{
+	"ID" : "28Q505", 
+	"District" : "28", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "29Q095", 
+	"District" : "29", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "29Q095", 
+	"District" : "29", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "29Q238", 
+	"District" : "29", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q011", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q017", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q076", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q076", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q092", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q112", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q127", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q145", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q145", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q148", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q148", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q149", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q150", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q152", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q166", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q204", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q204", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q212", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q222", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q228", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q228", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q228", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q228", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q235", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q280", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q329", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q445", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q450", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "30Q555", 
+	"District" : "30", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "30Q555", 
+	"District" : "30", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "31R016", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R019", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R020", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R020", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "31R022", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R022", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "31R041", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R044", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R051", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R057", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "31R057", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "31R061", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R445", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "31R450", 
+	"District" : "31", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K086", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K106", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K106", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K116", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K123", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K145", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K151", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K151", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K162", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K274", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K291", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K349", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K376", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "32K377", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K403", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "32K562", 
+	"District" : "32", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K231", 
+	"District" : "75", 
+	"BackgroundColor" : "#dc3912", 
+	"Language" : "Chinese", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K370", 
+	"District" : "75", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K370", 
+	"District" : "75", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K373", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "75K396", 
+	"District" : "75", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K721", 
+	"District" : "75", 
+	"BackgroundColor" : "#109618", 
+	"Language" : "Yiddish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75K811", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75M079", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "75M079", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75M079", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75M751", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75Q255", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75Q721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "75Q721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75Q721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75Q811", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X010", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X010", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X017", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X168", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X168", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X176", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X186", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "75X186", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "DL"},
+	{
+	"ID" : "75X186", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X469", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X469", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X721", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X754", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X811", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X811", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "75X811", 
+	"District" : "75", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "79M973", 
+	"District" : "79", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"},
+	{
+	"ID" : "79Q950", 
+	"District" : "79 ", 
+	"BackgroundColor" : "#3366cc", 
+	"Language" : "Spanish", 
+	"Program" : "TBE"}
 ]
 
-var programType = [{"Width" : "44.8%",	//It's a bit silly to do this in json
-				    "class" : "DLType", //but it's good practice!
+var programType1819 = [{"Width" : "46.6%",	//It's a bit silly to do this in json
+				    "class" : "wrapBar", //but it's good practice!
+				    "Color" : "#dc3912",
+				    "Name" : "DL (46.6%)",
+				    "side" : "right"},
+				   {"Width" : "53.4%",
+				    "class" : "wrapBar",
+				    "Color" : "#3366cc",
+				    "Name" : "TBE (53.4%)",
+				    "side" : "left"}]
+
+var programType1718 = [{"Width" : "44.8%",	//It's a bit silly to do this in json
+				    "class" : "wrapBar", //but it's good practice!
 				    "Color" : "#dc3912",
 				    "Name" : "DL (44.8%)",
 				    "side" : "right"},
 				   {"Width" : "55.2%",
-				    "class" : "TBEType",
+				    "class" : "wrapBar",
 				    "Color" : "#3366cc",
 				    "Name" : "TBE (55.2%)",
 				    "side" : "left"}]
+
+var programTypeOld = [{"Width" : "75%",
+						"class" : "wrapBar",
+						"Color" : "#ff9900",
+						"Name" : "ESL",
+						"side" : "center"},
+						{"Width" : "4.7%",
+						"class" : "wrapBar",
+						"Color" : "#dc3912",
+						"Name" : "DL",
+						"side" : "center"},
+						{"Width" : "12%",
+						"class" : "wrapBar",
+						"Color" : "#3366cc",
+						"Name" : "TBE",
+						"side" : "center"},
+						{"Width" : "8.3%",
+						"class" : "wrapBar",
+						"Color" : "#109618",
+						"Name" : "N/A",
+						"side" : "center"}]
 
 var districtTally = [{"district" : "District 1",
 					  "Width" : "8"},
@@ -2259,24 +3381,102 @@ var districtTally = [{"district" : "District 1",
 					 {"district" : "79",
 					  "Width" : "2"}]
 
-
+var langBreakdown = [{"language" : "Spanish",
+					"Color" : "#3366cc",
+					"count" : "437"},
+					{"language" : "Chinese",
+					"Color" : "#dc3912",
+					"count" : "70"},
+					{"language" : "French",
+					"Color" : "#ff9900",
+					"count" : "8"},
+					{"language" : "Yiddish",
+					"Color" : "#109618",
+					"count" : "7"},
+					{"language" : "Bengali",
+					"Color" : "#990099",
+					"count" : "5"},
+					{"language" : "Russian",
+					"Color" : "#0099c6",
+					"count" : "4"},
+					{"language" : "Arabic",
+					"Color" : "#dd4477",
+					"count" : "4"},
+					{"language" : "Haitian Creole",
+					"Color" : "#66aa00",
+					"count" : "4"},
+					{"language" : "Polish",
+					"Color" : "#b82e2e",
+					"count" : "1"},
+					{"language" : "Italian",
+					"Color" : "#316395",
+					"count" : "1"},
+					{"language" : "Hebrew",
+					"Color" : "#994499",
+					"count" : "1"},
+					{"language" : "Korean",
+					"Color" : "#22aa99",
+					"count" : "1"},
+					{"language" : "Japanese",
+					"Color" : "#aaaa11",
+					"count" : "1"},
+					{"language" : "Urdu",
+					"Color" : "#6633cc",
+					"count" : "1"}]
 
 var circlesMain = d3.select('#circleContainer')										 // Begin School Circles
 		.selectAll('div')
 		.data(circlesData).enter()
+		.append('a')
+  		.attr('xlink:href', function(d){var url = 'http://site:schools.nyc.gov ';})
 		.append('div')
-			.attr('class', function(d) {return d.class;})						 //class determines shape
-			.style('background-color', function(d) {return d.backgroundColor})	//color sets color
-			.attr('title', function(d) {return d.ID;});						   //give title tag name of school
+			.attr('class', function(d) {return d.Program;})						 //class determines shape
+			.style('background-color', function(d) {return d.BackgroundColor})	//color sets color
+			.attr('title', function(d) { var title = d.ID;
+											 title +="\n";
+											 title += d.Program;
+											 title +=" - ";
+											 title += d.Language;
 
-var wrapGraphType = d3.select('#typeContainer')
+			return title;});						   //give title tag name of school
+
+var wrapGraphTypeold = d3.select('#typeContainer2')
 		.selectAll('div')
-		.data(programType).enter()
+		.data(programTypeOld).enter()
 		.append('div')
 			.attr('class', function(d) {return d.class})
 			.style('width', function(d) {return d.Width})
 			.style('background-Color', function(d) {return d.Color})
 			.append('div')
+				.attr('title', function(d) {return d.Width})
+				.text(function(d) {return d.Name})
+				.style('text-align', function(d) {return d.side})
+				.style('padding-left', '5px')
+				.style('padding-right', '5px');			
+
+var wrapGraphType1718 = d3.select('#typeContainer')
+		.selectAll('div')
+		.data(programType1718).enter()
+		.append('div')
+			.attr('class', function(d) {return d.class})
+			.style('width', function(d) {return d.Width})
+			.style('background-Color', function(d) {return d.Color})
+			.append('div')
+				.attr('title', function(d) {return d.Width})
+				.text(function(d) {return d.Name})
+				.style('text-align', function(d) {return d.side})
+				.style('padding-left', '5px')
+				.style('padding-right', '5px');
+
+var wrapGraphType1819 = d3.select('#typeContainer1')
+		.selectAll('div')
+		.data(programType1819).enter()
+		.append('div')
+			.attr('class', function(d) {return d.class})
+			.style('width', function(d) {return d.Width})
+			.style('background-Color', function(d) {return d.Color})
+			.append('div')
+				.attr('title', function(d) {return d.Width})
 				.text(function(d) {return d.Name})
 				.style('text-align', function(d) {return d.side})
 				.style('padding-left', '5px')
@@ -2290,5 +3490,24 @@ var barGraph = d3.select('#districtContainer')
 			.style('width', function(d) {
 				var barWidth = d.Width * 15;
 				return barWidth + "px"})
-			.attr('title', function(d) {return d.Width;})
+			.attr('title', function(d) { var title = d.Width;
+				title += ' programs in district ';
+				title += d.district;
+				return title;})
 			.text(function(d) {return d.district});
+
+var barGraph = d3.select('#langContainer')
+		.selectAll('div')
+		.data(langBreakdown).enter()
+		.append('div')
+			.attr('class', 'bar1')
+			.style('background-color', function(d) {return d.Color})
+			.style('border-color', function(d) {return d.Color})
+			.style('width', function(d) {
+				var barWidth = d.count * 2;
+				return barWidth + "px"})
+			.attr('title', function(d) { var title = d.count;
+				title += ' ';
+				title += d.language;
+				title += ' programs';
+				return title;});
