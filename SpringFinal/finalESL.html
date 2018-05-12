@@ -6,7 +6,7 @@
     <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css">
     <title>My Pal News News - ESL Programs...</title>
-    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:500|Montserrat:500" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:500|Montserrat:500|Slabo+27px" rel="stylesheet"> 
 </head>
 <body>
 	<div id="header">
@@ -18,25 +18,21 @@
 		<img id="authorPic" src="photos/ben.gif" alt="Ben">
 		<h5 id="author">Ben B. Burge</h5>
 	</div>
+
 	<div class="textColumn">
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		Manhattan — Still a beacon for immigration, New York City public schools offer language opportunities that most municipalities cannot match. Support for students whose native tongue isn’t English has been a major priority for the Division of English Language Learners and Students Support (DELLSS). As part of their mission to provide a <a href="http://schools.nyc.gov/Academics/ELL/default.htm">“rich educational experience”</a> to all ELLs, their work with the Department of Education has paved the way for hundreds of new programs.
+		New York City — speaks in over 200 languages. Though it’s unlikely you’ll hear many of them in the classroom: there are only 14 languages supported in current English as a Second Language programs. That is not to put down the Division of English Language Learners and Students Support (DELLSS). Their work with the Department of Education provides ESL support beyond the scope of most municipalities.
 		</p>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		As schools scale and teaching methods evolve ESL services too must morph to best fit the need of English Language Learners and English speaking students alike. Recent data on the 2017-2018 school year suggests 545 unique programs which support 14 languages other than English. This information sheds light on over 200 programs created within the last four years. Of these programs there are two types that have proved most successful and now form the basis for all current and planned programs: TBE and DL.</p>
-		<h3>Transitional Bilingual Education (TBE)</h3>
-		<p>Instruction is offered in a native language as well as English. Used in tandem with ESL, this program follows students until they test proficient in the New York State English as a Second Language Achievement Test (NYSESLAT). Schools must offer this service for an additional two years to students who tests proficient.</p>
-		<h3>Dual Language (DL)</h3>
-		<p>ELL and English speaking students are paired in the classroom where lessons are taught in two languages. The focus here is in bilingual classrooms. Here, students are not expected to exit DL instruction after English proficiency.</p>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		Below each shape represents a 2017-2018 ESL program. Each langauge is shown by a different color. TBE programs are circles and DL are squares. Hover over a program to see the ID of School it belongs to.</p>
-    </div>
-    
+	</div>
+	<div title="Scroll over a program for school ID" id="circleContainer"></div>
 
-    <div title="Scroll over a program for school ID" id="circleContainer">
-    	<p class="chartTitle">2017-2018 ESL Programs Arranged by District</p>
-    	<div id="key">
-	    	<p><u>KEY</u></p>
+	<div class="textColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Recent data on the 2017-2018 school year suggests 545 unique programs supporting those 14 languages other than English (Shown above). Within the last four years DELLSS has created over 200 new programs, and plans to add 48 more next school year. The number of languages supported is also on the rise. Next year’s addition will create the first Albanian program.</p>
+	</div>
+	<div class="langDiv">
+    	<div id="langContainer"></div>
+    	<div class="langLabel">
 	    	<p style="color: #3366cc">Spanish (437)</p>
 	    	<p style="color: #dc3912">Chinese (70)</p>
 	    	<p style="color: #ff9900">French (8)</p>
@@ -51,21 +47,34 @@
 	    	<p style="color: #22aa99">Korean (1)</p>
 	    	<p style="color: #aaaa11">Japanese (1)</p>
 	    	<p style="color: #6633cc">Urdu (1)</p>
-	    	<div class="TBE">
-	    		<p> - TBE </p>
-	    	</div>
-	    	<div class="DL">
-	    		<p> - DL</p>
-	    	</div>
 	    </div>
+	</div>
+
+	<div class="textColumn">
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Spanish is the predominant language provided with almost four times the support of all other languages combined. Second highest is Chinese with 70. Hebrew, Italian, Korean, Polish, japanese, and Urdu each have only a single program in the city. DL and TBE share the spread just shy of evenly.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		DELLSS has not only expanded programs, but they have retooled the types of program provided. Traditional ESL is no longer offered alone, rather it serves as support to two new services: Dual Language and Transitional Bilingual Education. This shift leans into a classroom environment where language is learned alongside course content.</p>
+	<h3>Transitional Bilingual Education (TBE)</h3>
+	<p>Instruction is offered in a native language as well as English. Used in tandem with ESL, this program follows students until they test proficient in the New York State English as a Second Language Achievement Test (NYSESLAT). Schools must offer this service for an additional two years to students who tests proficient.</p>
+	<h3>Dual Language (DL)</h3>
+	<p>ELL and English speaking students are paired in the classroom where lessons are taught in two languages. The focus here is in bilingual classrooms. Here, 	students are not expected to exit DL instruction after English proficiency.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Depending on the needs of a school, the NYC DoE implements one of these two programs, each pertaining to a single non-english language. The charts below follow the take over of DL and TBE programs: the 2017-2018 school year marks to end of the transition.</p>
     </div>
-    
+    <div title="Scroll over a bar for percentage">
+	    <p class="chartTitle">Breakdown of ESL Program type 2012-2013 School year</p>
+	    <div id="typeContainer2"></div>
+	    <p class="chartTitle">2017-2018 School Year</p>
+	    <div id="typeContainer"></div>
+	    <p class="chartTitle">Projected 2018-2019 School Year</p>
+	    <div id="typeContainer1"></div>
+	</div>
     <div class="textColumn">
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		Depending on the needs of a school, the NYC DoE implements one of these two programs, each pertaining to a single non-english language. Curious about the split? here’s another look at that ratio.</p>
+		Dual Language  programs were once a tiny fraction. Prior to the DoE’s half-decade push for ESL services, DL programs made up less than 5% of those taught in classrooms. The gap between TBE and DL will further close next semester according to last Thursday’s announcement from DoE Chancellor Richard A. Carranza. 48 new ESL programs will be initiated next Fall,32 of which will be DL. This expansion will also create language options in areas lacking present programs.</p>
     </div>
-    <div id="typeContainer">
-    </div>
+
     <div class="textColumn">
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		Depending on the needs of a school, the NYC DoE implements one of these two programs, each pertaining to a single non-english language. The chart above shows TBE programs as circles and DL as squares. Curious about the split? here’s another look at that ratio.</p>
@@ -78,7 +87,10 @@
     
     <div class="textColumn">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    The DoE has made great strides towards an accessible and ubiquitous ESL experience. The growth of Dual Language programs promotes the benefits of a bilingual classroom. As programs expand to new areas of the city an even larger body of students will find their classrooms taught in the languages conducive to their learning.</p>
+    	Most ESL programs in this country are focused on assimilating students, teaching them English with very little regard for their native language, or what they speak at home. This isn’t the case in New York. Dual Language and Transitional Bilingual Education may eliminate most out-of-classroom language instruction, but it provides additional language support within core classes.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	The DoE has made great strides towards an accessible and ubiquitous ESL experience. The growth not only opens access to ELLs, but promotes the benefits of a bilingual classroom. As programs expand to new areas of the city an even larger body of students will find their lessons taught in the languages conducive to their learning.
+	</p>
     </div>
 
     <div id="footer">
