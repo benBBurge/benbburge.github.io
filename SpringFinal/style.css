@@ -1,8 +1,8 @@
 html, body {
 	width: 100%;
-	height: 100%;
-	margin: 0;
-    	padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 div.TBE {
@@ -37,6 +37,11 @@ div.wrapBar {
 	width: 5px;				/*overwritten later by D3 Width*/
 	height: 100%;
 	background-color: black; /*overwritten later by D3 Color*/
+}
+
+.grow:hover {
+	-webkit-animation: growPulse 1s .5s infinite;
+	animation: growPulse 1s .5s infinite;
 }
 
 #circleContainer {
@@ -146,6 +151,11 @@ a:visited {
 	font-family: 'Montserrat', sans-serif;
 }
 
+#colorFlash:hover {
+	-webkit-animation: colorFlash 7s 0.1s infinite;
+	animation: colorFlash 7s 0.1s infinite;
+}
+
 #headline {
 	font-size: 40px;
 	color: #779bba;
@@ -238,5 +248,37 @@ a:visited {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
-    } /*end state*/
+    } /* end state */
+}
+
+@keyframes growPulse {
+    0%, 100% {
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+    } /* begining state */
+    50% {
+        -webkit-transform: scale(2, 2);
+        -ms-transform: scale(2, 2);
+        transform: scale(2, 2);
+    } /* end state */
+}
+
+@keyframes colorFlash {
+    0%   {color: #3366cc;}
+    7%   {color: #dc3912;}
+    14%  {color: #ff9900;}
+    21%  {color: #109618;}
+    28%  {color: #3366cc;}
+    35%  {color: #990099;}
+    42%  {color: #0099c6;}
+    49%  {color: #dd4477;}
+    56%  {color: #3366cc;}
+    63%  {color: #66aa00;}
+    70%  {color: #b82e2e;}
+    77%  {color: #316395;}
+    84%  {color: #994499;}
+    91%  {color: #22aa99;}
+    98%  {color: #aaaa11;}
+    100% {color: #6633cc;}
 }
