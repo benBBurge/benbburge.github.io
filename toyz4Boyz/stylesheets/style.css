@@ -1,0 +1,149 @@
+/* Left side of the screen */
+
+div#store {
+  float: left;
+  height:400px;
+  width: 54%;
+}
+
+div#sign {
+  background-color: #e64032;  /* red */
+  border-radius: 13px;
+  margin: 2%;
+  padding: 2px;
+  text-align: center;
+  width: 96%;
+}
+
+div.row-container {
+  display: -webkit-box; 
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex; 
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   -moz-flex-flow: row wrap;
+   -ms-flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+  margin-left: 4%;
+  margin-right: 2%;
+  width: 100%;
+}
+
+.categories {
+  border-radius: 13px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  height: 80px;
+  width: 17%;
+}
+
+.toyz {
+  background-color: green;
+  border-radius: 10px;
+  height: 225px;
+  width: 28%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.toyzPics {
+  height:65%;
+  width: 54%;
+  margin-top: 4%;
+  margin-left: 22%;
+  margin-right: 22%;
+  line-height: 1%;
+}
+
+/* Right side of the screen */
+
+div#about {     /*div b4 class tells CSS we want to apply to whole div*/
+  float: right;
+  width: 44%;
+  height: 100%;
+  text-align: center;
+}
+
+div#nav {
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+  background-color: #e64032;  /* red */
+  border-radius: 20px;
+}
+
+div#bio {
+  background-color: #1b4bf4;  /* blue */
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1%;
+  text-align: left;
+}
+
+img#social {
+  margin: 2%;
+  width: 33%;
+}
+
+div#work {
+  background-color: #e64032;  /* red */
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1%;
+}
+
+img#leaves {
+  float: left;
+  margin-top: 5%;
+  width: 33%;
+}
+
+a {
+  font-size: 20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+body {
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb2%2Fd4%2Fd4%2Fb2d4d46b21bcf0ddb9a92ed4d2464d7d.jpg&f=1");
+}
+
+h1 {
+  line-height: 40%;
+  font-size: 72px;
+  color: #ca57da; /* purple */
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+  line-height: 1%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 28px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  line-height: 100%;
+  color: white;
+  
+}
+
+p {
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+}
