@@ -1,0 +1,242 @@
+{"keyMaze" :
+	{"0" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"1" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "spawn"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"2" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"3" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"4" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"5" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"6" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "end"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"7" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "end"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"8" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "space"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+	],
+
+	"9" : [
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		},
+		{
+		"type" : "empty"
+		}
+		]
+	}
+}
