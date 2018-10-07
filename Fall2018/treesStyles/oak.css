@@ -1,0 +1,183 @@
+html {                      /* are there any good convetions for orgranizing tags/ids/classes? */
+    margin: 0 0;           /*  i've just kinda tossed them about in the order they apear-ish  */
+    padding: 0 0;         /*     ALSO: like, i've run this through a verifier, but is there  */
+    }                    /*      anything that will nix redundent code?                     */
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+audio {
+    width: 48%;
+    margin: 1px 26%;
+}
+
+#video {
+    width: 48%;
+    height: auto;
+    margin: 1px 26%;
+}
+
+#background {
+    background: #dcc9b9;
+}
+
+#pageHeader {
+    color: #ecec8c;
+    background-color: #9db164;
+    width: 90%;
+    padding-left: 10%;
+    font-family: 'Charmonman', cursive;
+}
+
+.headLine {
+    color: #462F40;
+    margin-left: 2%;
+    font-family: 'Charmonman', cursive;
+}
+
+.footerLine {
+    color: #9db164;
+    width: 100%;
+    text-align: center;
+    float: right;
+    font-family: 'Charmonman', cursive;
+}
+
+img#icon {
+    width: 5%;
+    height: auto;
+    border-radius: 100px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.article {
+    width: 48%;
+    margin-left: 2%;
+    text-align: left;
+    font-family: 'Niramit', sans-serif;
+    line-height: 1.3;
+    float: left;
+}
+
+img.article {
+    width: 45%;
+    height: auto;
+    float: right;
+    margin: 10% 0;
+}
+
+div#links {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Niramit', sans-serif;
+}
+
+a {
+    color: #b2c3eb;                     /*blue*/
+}
+
+a:hover {
+    color: #bcb886;                     /*yellow*/
+}
+
+a:visited {
+    color: #444446;                     /*purple */
+}
+
+@media screen and (min-height: 768px) and (max-width: 1024px) {     /*begin media query*/
+
+    .article {
+        width: 48%;
+        margin-left: 2%;
+        text-align: left;
+        font-family: 'Niramit', sans-serif;
+        line-height: 1.2;
+        float: left;
+    }
+
+    img.article {
+        width: 50%;
+        height: auto;
+        float: right;
+        margin: 15% 0;
+    }
+}
+
+@media screen and (min-height: 320px) and (max-width: 420px) {
+    #pageHeader {
+        width: 86%;
+        margin-left: 0px;
+        padding: 0 7%;
+    }
+
+    img#icon {
+        width: 7%;
+        margin-left: 5%;
+    }
+
+    img.article {
+        width: 90%;
+        height: auto;
+        margin: 2.5% 5%;
+    }
+
+    .article {
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+        line-height: 1.4;
+    }
+
+    .footerLine {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .headLine {
+        margin-left: 10%;
+    }
+
+    audio {
+        width: 90%;
+        margin: 1px 5%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}                                       /*ends media query*/
