@@ -1,0 +1,32 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url("img/utorbg.gif");
+	background-size: 50%;
+}
+
+div#text {
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+
+}
+
+p {
+	font-family: template-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #FDF5E6;
+	margin: 22% 0;
+	text-align: center;
+}
+					/*we'll want these later*/
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (min-height: 320px) and (max-width: 420px) {
+	
+}
