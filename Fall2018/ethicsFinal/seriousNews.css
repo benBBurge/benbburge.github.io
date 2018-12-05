@@ -52,8 +52,6 @@ img#icon {
 .articleQuote {
     width: 52%;
     margin-left: 17%;
-    margin-top: 7px;
-    margin-bottom: 7px;
     text-align: right;
     font-family: 'K2D', sans-serif;
     line-height: 1.25;
@@ -141,11 +139,6 @@ a:visited {
         padding: 0 5%;
     }
 
-    audio {
-        width: 100%;
-        margin: 1px 0;
-    }
-
     h1 {
         font-size: 32px;
     }
@@ -185,6 +178,10 @@ a:visited {
         height: auto;
         margin: 0 10%;
     }
+	
+    .articleQuote {
+        margin-left: 10%;
+    }
 
     .article {
         width: 90%;
@@ -196,17 +193,6 @@ a:visited {
     .footerLine {
         width: 90%;
         padding: 0 5%;
-    }
-
-    audio {
-        width: 100%;
-        margin: 1px 0;
-    }
-
-    #video {
-        width: 90%;
-        height: auto;
-        margin-left: 5%;
     }
 
     div#links {
