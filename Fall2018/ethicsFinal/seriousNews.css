@@ -10,17 +10,6 @@ body {
     background-color: #DDDDF4;
 }
 
-audio {
-    width: 48%;
-    margin: 1px 26%;
-}
-
-#video {
-    width: 48%;
-    height: auto;
-    margin-left: 17%;
-}
-
 #pageHeader {
     color: #18331F;
     background-color: #FFB1A8;
@@ -63,8 +52,8 @@ img#icon {
 .articleQuote {
     width: 52%;
     margin-left: 17%;
-    margin-top: 1m;
-    margin-bottom: 1m;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: right;
     font-family: 'K2D', sans-serif;
     line-height: 1.25;
