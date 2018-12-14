@@ -20,6 +20,16 @@ div#text {
 	width: 100%;
 }
 
+h2 {
+	font-family: template-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #FDF5E6;
+	margin: 22% 0;
+	text-align: center;
+}
+
 p {
 	font-family: template-gothic, sans-serif;
 	font-weight: 400;
