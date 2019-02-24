@@ -40,7 +40,7 @@ body {
 	background-size: 50%;
 }
 
-div#text {
+div.text {
 	vertical-align: middle;
 	height: 100%;
 	width: 100%;
@@ -76,6 +76,7 @@ a {
 #footfooter {
 	width: 100%;
 	text-align: center;
+	height: 100%;
 }
 
 .hidden {
@@ -90,13 +91,9 @@ a {
 	animation-iteration-count: 1;
 }
 
-.hidden.apeared {
-
-}
-
 					/*we'll want these later*/
 @media screen and (max-width: 1024px) {
-	#hidden {
+	.hidden {
 		display: none;
 		height: auto;
 		width: 50%;
@@ -108,8 +105,8 @@ a {
 		animation-iteration-count: 1;
 	}
 }
-@media screen and (min-height: 320px) and (max-width: 420px) {
-	#hidden {
+@media screen and (min-height: 320px) and (max-width: 600px) {
+	.hidden {
 		display: none;
 		height: auto;
 		width: 60%;
@@ -119,5 +116,10 @@ a {
 	  	animation-name: spiral;	/*triggers css animation cover fall*/
 	    animation-duration: 1.5s;
 		animation-iteration-count: 1;
+	}
+
+	div.text {
+		vertical-align: middle;
+		height: 40vh;
 	}
 }
