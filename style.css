@@ -4,6 +4,32 @@
     100%	{color: #FDF5E6;}
 }
 
+@keyframes spiral {				/*fancy fall effect for covers*/
+	from {
+		-moz-transform: scale(2) rotate(-300deg);
+		-webkit-transform: scale(2) rotate(-300deg);
+		-o-transform: scale(2) rotate(-300deg);
+		-ms-transform: scale(2) rotate(-300deg);
+		transform: scale(2) rotate(-300deg);
+	}
+	to {
+		-moz-transform: scale(1) rotate(0deg);
+		-webkit-transform: scale(1) rotate(0deg);
+		-o-transform: scale(1) rotate(0deg);
+		-ms-transform: scale(1) rotate(0deg);
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+/*@keyframes fadeOut {	not used, duh
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}*/
+
 body, html {
 	padding: 0px;
 	margin: 0px;
@@ -38,13 +64,60 @@ p {
 	margin: 22% 0;
 	text-align: center;
 	animation-name: pulseColor;	/*triggers css animation for font color*/
-    	animation-duration: 7s;
+    animation-duration: 7s;
 	animation-iteration-count: 42;
 }
-					/*we'll want these later*/
-@media screen and (max-width: 1024px) {
+
+a { 
+	color: #f8eba3;
+	
+}
+
+#footfooter {
+	width: 100%;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+	height: auto;
+	width: 30%;
+	position: fixed;
+  	bottom: 15%;
+  	right: 35%;
+  	animation-name: spiral;	/*triggers css animation cover fall*/
+    animation-duration: 1.5s;
+	animation-iteration-count: 1;
+}
+
+.hidden.apeared {
 
 }
+
+					/*we'll want these later*/
+@media screen and (max-width: 1024px) {
+	#hidden {
+		display: none;
+		height: auto;
+		width: 50%;
+		position: fixed;
+	  	bottom: 10%;
+	  	right: 25%;
+	  	animation-name: spiral;	/*triggers css animation cover fall*/
+	    animation-duration: 1.5s;
+		animation-iteration-count: 1;
+	}
+}
 @media screen and (min-height: 320px) and (max-width: 420px) {
-	
+	#hidden {
+		display: none;
+		height: auto;
+		width: 60%;
+		position: fixed;
+	  	bottom: 20%;
+	  	right: 20%;
+	  	animation-name: spiral;	/*triggers css animation cover fall*/
+	    animation-duration: 1.5s;
+		animation-iteration-count: 1;
+	}
 }
