@@ -1,0 +1,20 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div#lines {
+	float: right;
+	line-height: 50%;
+	height: 100%;
+	text-align: left;
+	padding-right: 1%;
+}
+
+div#mazeCanvas {
+	float: left;
+}
+
+#hidden {
+	display: none;
+}
