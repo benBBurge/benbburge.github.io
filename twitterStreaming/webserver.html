@@ -51,13 +51,13 @@ webserver.html
 	        <div class="pageBody">
 		        <div>                   <!--headline stuff-->
 		        	<h2>Setting Up a Server</h2>
-		        	<p>Coming soon</p>
+		        	<p>First, <a href="https://aws.amazon.com/getting-started/" target="_self">create an AWS account</a>.  Amazon gives 12 months free tier server to get new users hooked.  These free tier servers are more than capable for our projects.  After signing in, within the console, we'll launch a new EC2 instance.  I sugest using Ubuntu as the OS.  In the EC2 Dashboard, navigate to the instance.  Here lies valuable information for our SHH connection, but before we connect, we must start the server.  Right click on the instance and select "start" from the instance state drop-down.  "Stop" will shut down the server; good practice to do so when not in use.  <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html" target="_self">Read a relvent tutorial by Amazon here</a>.</p>
 
 		        	<h2>FTP to Upload Programs</h2>
-		        	<p>Coming soon</p>
+		        	<p>Using <a href="https://filezilla-project.org/download.php?type=client" target="_self">FileZilla</a> and the perm files downloaded from our instance, we can create a FTP connection. I recomend watching <a href="https://filezilla-project.org/download.php?type=client" target="_self">this video</a> which follows this process.  Once connected, move any programs you'd like to run on the server.  Make sure your transfer any other files the program relies on, such as perm files.</p>
 
 		        	<h2>SSH to Run Scripts</h2>
-		        	<p>Coming soon</p>
+		        	<p>LinuxAcademy.com has a <a href="https://www.youtube.com/watch?v=bi7ow5NGC-U" target="_self">wonderful video on establishing a SSH connection with PuTTY</a>.  In the shell cd to the directory the programs are located, and use python to run them.  To install Python from the Ubuntu command line use check out this <a href="https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/" target="_self">guide</a>.</p>
 				</div>
 
 		        <div class="footerLine">                <!--unoficall footer-->

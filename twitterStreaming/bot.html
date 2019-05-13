@@ -50,7 +50,9 @@ bot.html
             </div>                              <!--end page header-->
             <div class="pageBody">
                 <h2>Resources</h2>
-                <p>Each explores unique facet of the Twitter Streaming API, while gradually adding new methods/other APIs.  These code blocks are broken down in the guide, and available for download/use.</p>
+                <p>Here's <a href="https://developer.twitter.com/en/docs/tweets/post-and-engage/overview" target="_blank">Twitter's documentation for interacting with tweets</a>.  Creating, destroying tweets, comments, likes...  Well, unfortunetly, Twitter does not allow likes by bots.</p>
+                <p>When designing for interactive Twitter accounts, its useful to understand the a tweet object's structure.  GitHub user "hrp"<a href="https://gist.github.com/hrp/900964" target="_blank"> maps the object in a json file here</a>.  Notice how the hierarchy is reflected in our calls.</p>
+                <p>Checking friendships between uses can be tricky.  In example two we use <a href="https://stackoverflow.com/questions/39985434/python-tweepy-how-to-use-lookup-friendships" target="_blank">a technique described here</a>.  Change the index of the array: 0: target user, 1: account from status.</p>
             </div>
 
             <div class="footerLine">                <!--unoficall footer-->
