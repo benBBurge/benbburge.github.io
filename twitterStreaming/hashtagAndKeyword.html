@@ -177,7 +177,7 @@ index = 2
 gc = Client(None, session)
 sheet = gc.open('NNDI Tweet Log').sheet1
 </code></pre>
-                    <p>This section is consistent throughout all the examples.  This code is the Twitter API equivalent of inserting a key into the ignition, and twisting it</p>
+                    <p>This next section is consistent throughout all the examples.  This code is the Twitter API equivalent of inserting a key into the ignition, and twisting it</p>
                     <pre><code class="python">...
 #API key goes here:
 auth = tweepy.OAuthHandler('your key here', 'your key here')
@@ -185,7 +185,7 @@ auth.set_access_token('your token here', 'your token here')
 
 api = tweepy.API(auth)
 </code></pre>
-                    <p>The first step our bot will take when it sees a tweet that makes it through our filter (we'll define that later) is to check whether or not the user is following the account.  This insures the account cannot retweet its own retweets, while doubling as a means to only interact with users who consent to the bot's retweets.  User ID and Screen Name are needed for the function show_function.  *SITE* is a quick way to find a twitter ID from a Username</p>
+                    <p>The first step our bot will take when it sees a tweet that makes it through our filter (we'll define that later) is to check whether or not the user is following the account.  This insures the account cannot retweet its own retweets, while doubling as a means to only interact with users who consent to the bot's retweets.  User ID and Screen Name are needed for the function show_function.  Use <a href="http://gettwitterid.com/" target="_blank">GetTwitterID.com</a> to get a twitter ID from a Username</p>
                     <p>We also want to make sure the tweet is a quote tweet.  If it is, the tweet ID is printed, and selected fields stored in a variable, row, which is then inserted into the sheet.  Once uploaded, we'll retweet the status, and if the bot isn't already following the account, it will!</p>
                     <pre><code class="python">...
 def on_status(self, status):
