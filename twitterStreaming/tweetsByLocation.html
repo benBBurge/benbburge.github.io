@@ -81,7 +81,7 @@ myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
 myStream.filter(locations=[minlon, minlat, maxlon, maxlat])</code></pre>
                 <h4 class="note">Below is the script running in an IDLE shell window.  As we see, the tweets are streaming in.</h4>
-                <img class="pageIMG" src="pictures/locationReturn.png" alt="Tweets from Union Square">
+                <img class="pageIMG" src="/twitterStreaming/pictures/locationReturn.png" alt="Tweets from Union Square">
 		        <h2>Code Along</h2>
 		        <p>Begin by importing the Tweepy library.  Once that's set, we'll need to supply our API authentication info.  Your API keys in Twitter’s Developer portal, <a href="https://developer.twitter.com/en/apps" target="_blank">under your apps</a>, in “Keys and Tokens”</p>
                 <pre><code class="python">import tweepy
