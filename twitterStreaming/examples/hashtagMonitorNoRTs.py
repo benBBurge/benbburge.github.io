@@ -38,7 +38,7 @@ session = create_assertion_session('client_secret.json', scopes)
 from gspread import Client
 index = 2
 gc = Client(None, session)
-sheet = gc.open('your-google-sheets-name').sheet1
+sheet = gc.open('NNDI Tweet Log').sheet1
 
 #Twitter API key goes here:
 auth = tweepy.OAuthHandler('your-key-here', 'your-key-here')
@@ -54,13 +54,12 @@ class MyStreamListener(tweepy.StreamListener):
         follows = api.show_friendship("your-twitter-id", "your-twitter-username", status.user.id, status.user.screen_name)
         #if a non-quote-tweet makes it past our filter, the program will crash while we're writting that element to our row
         if status.is_quote_status & follows[1].following:   #target follows subject, stops us tweeting at ourselves
-            #print URL in console.
-            print("https://twitter.com/" + status.user.screen_name + "/status/" + status.id_str + " captured to log.")
+        #print URL captured to log
+        print("https://twitter.com/" + status.user.screen_name + "/status/" + status.id_str + " captured to log.")
             #into row we store: username, status text, status URL, and URL of linked status.  REMOVE LINKED STATUS URL to also capture non-quote-tweets
             row = [str(status.created_at), "@" + status.user.screen_name, status.text, "https://twitter.com/" + status.user.screen_name + "/status/" + status.id_str, "https://twitter.com/" + status.quoted_status.user.screen_name + "/status/" + status.quoted_status.id_str]
             #Tweets are stored in google sheet!
             sheet.insert_row(row, index)
-            api.retweet(status.id)
             if not follows[1].followed_by:   #if subject doesn't follow target
                 api.create_friendship(status.user.id)   #follow them!
 
